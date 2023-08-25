@@ -1,3 +1,5 @@
+print("srihari_192124168")
+print("8 queen problem")
 def is_safe(board, row, col):
     for i in range(row):
         if board[i][col] == 1:
